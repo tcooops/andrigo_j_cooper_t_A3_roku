@@ -3,16 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roku Flashback App</title>
-
-    <!-- this has to be a css file -->
-    <link rel="stylesheet" href="css/master.css">
+    <title>Burger Menu Build</title>
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+    <h1 class="hidden">Building a simple burger menu template</h1>
+<main>
+    <div class="main-container">
+        <header id="main-header">
+            <nav id="main-nav">
+              <h2 class="hidden">Main Nav</h2>
+                <button id="button"></button>
+                  <div id="burger-con">
+                    <ul id="burger-menu">
+                        <li>                  
+                            <div id="logo-con"> 
+                                <img src="images/logo.svg" alt="logo" id="main-logo">
+                            </div>
+                        </li>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">settings</a></li>
+                        <li><a href="#">roku</a></li>
+                        <li><a href="#">login</a></li>
+                    </ul>
+                    <div id="current-user">
+                        <img src="" alt="current user">
+                        <h3>Current User</h3>
+                    </div>
+                  </div>
 
+            </nav>
 
-
-    <!-- script files always go here -->
-    <script type="module" src="js/main.js"></script>
+          </header>
+          <section id="welcome">
+              <h2>Welcome to Roku Flashback!</h2>
+              <div id="categorgies">
+                <ul>
+                    <li><a href=""><img src="" alt="Movies">movies</a></li>
+                    <li><a href=""><img src="" alt="TV">tv</a></li>
+                    <li><a href=""><img src="" alt="Music">music</a></li>
+                </ul>
+              </div>
+          </section>
+          <section id="profiles">
+              <div id="seclect-user">
+                  <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+              </div>
+          </section>
+          <section id="content">
+            
+          </section>
+          <footer>
+              <h2 class="hidden">Footer</h2>
+              <div>
+                  <ul>
+                      <li>roku</li>
+                      <li>home</li>
+                      <li>users</li>
+                      <li>settings</li>
+                      <li>login</li>
+                  </ul>
+              </div>
+        </footer>
+    </div>
+</main>
+<script src="js/burger.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
