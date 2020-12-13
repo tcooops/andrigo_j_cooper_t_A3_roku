@@ -12,6 +12,9 @@
 ## Installation
 * `CD` to the location of your choice, then `git clone` the project and browse away!
 
+## Notes
+
+
 ## Built With
 * HTML
 * CSS
