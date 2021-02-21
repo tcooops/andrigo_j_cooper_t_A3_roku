@@ -1,6 +1,6 @@
 # Roku Flashback App Build, Part 1
 
-![Roku Flashback](./images/readme.jpg)
+![Roku Flashback](./public/images/readme.jpg)
 
 ## Description
 * We are tasked with building the Flashback App for Roku devices as well as desktop and mobile.
