@@ -1,22 +1,24 @@
 {
   "name": "rokuflashback",
   "version": "1.0.0",
-  "description": "![Roku Flashback](./images/readme.jpg)",
+  "description": "The Flashback app is part of the Roku streaming service. Subscribers can use this app to access three separate flashback features; movies, television, and music. Each of these three sections are comprised exclusively of entertainment from 1950-1990",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-dev": "nodemon app",
+    "start-ui": "browser-sync start --proxy 'localhost:5000' --files 'index.html' 'public' ",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tcooops/andrigo_j_cooper_t_A3_roku.git"
+    "url": "git+https://github.com/tcooops/rokuflashback.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tessa Benton-Cooper",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tcooops/andrigo_j_cooper_t_A3_roku/issues"
+    "url": "https://github.com/tcooops/rokuflashback/issues"
   },
-  "homepage": "https://github.com/tcooops/andrigo_j_cooper_t_A3_roku#readme",
+  "homepage": "https://github.com/tcooops/rokuflashback#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.7"
