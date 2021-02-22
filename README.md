@@ -10,7 +10,10 @@
 * If viewing from a desktop or mobile, use a modern browser such as Google Chrome or view on your Roku app!
 
 ## Installation
-* `CD` to the location of your choice, then `git clone` the project and browse away!
+* `CD` to the location of your choice, then `git clone` the project
+* Make sure to `npm install` all dependencies
+* Run `npm run start-dev` to launch the app at localhost:5000
+* Alternatively, you can view the app live on [Heroku](https://roku-flashback-app.herokuapp.com/)
 
 ## Notes
 
@@ -20,9 +23,9 @@
 * CSS
 * SASS
 * JavaScript
-* AJAX
-* PHP
 * Vue
+* Node
+* Express
 
 ## Authors
 * Jordan Andrigo - Designer
